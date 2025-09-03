@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.top-section {
+  background-color: #1f2937;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.header h1 {
+  color: f9faf8;
+  font-size: 24px;
+}
+
+ul {
+  display: flex;
+  gap: 14px;
+  list-style: none;
+  text-decoration: none;
+}
