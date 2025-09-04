@@ -129,3 +129,30 @@ ul {
   color: #1f2937;
   margin-top: 10px;
 }
+
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0 100px 0;
+}
+
+.quote-section div {
+  display: flex;
+  flex-direction: column;
+  max-width: 730px;
+}
+
+.quote-text {
+  font-size: 32px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: oblique;
+}
+
+.quote-source {
+  font-size: 20px;
+  font-weight: 600;
+  align-self: flex-end;
+}
